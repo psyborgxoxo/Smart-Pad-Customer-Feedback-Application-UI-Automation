@@ -1,0 +1,8 @@
+base\BaseTest.class
+tests\LandingPageTest.class
+tests\RegistrationTest.class
+listeners\TestListener.class
+tests\CompleteNavigationTest.class
+tests\AgeVerificationTest.class
+tests\FeedbackFormValidationTest.class
+tests\LoginTest.class

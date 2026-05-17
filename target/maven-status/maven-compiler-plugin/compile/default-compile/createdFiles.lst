@@ -1,0 +1,12 @@
+pages\BasePage.class
+utils\AssertionUtils.class
+pages\FeedbackPage.class
+utils\ActionUtils.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\RegistrationPage.class
+pages\LandingPage.class
+pages\AuthPage.class
+config\ConfigurationManager.class
+core\DriverManager.class
+utils\WaitUtils.class
