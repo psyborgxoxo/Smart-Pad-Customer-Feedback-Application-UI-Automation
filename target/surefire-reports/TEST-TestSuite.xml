@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="151.52" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="141.712" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\test-classes;C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\classes;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\SOURAV\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SOURAV\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SOURAV\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SOURAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\SOURAV\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SOURAV\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SOURAV\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SOURAV\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\SOURAV\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\SOURAV\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\SOURAV\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\SOURAV\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\SOURAV\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\SOURAV\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\SOURAV\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
+    <property name="java.class.path" value="C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\test-classes;C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\classes;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\SOURAV\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SOURAV\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SOURAV\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SOURAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\SOURAV\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\SOURAV\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SOURAV\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SOURAV\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\SOURAV\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\SOURAV\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\SOURAV\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\SOURAV\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\SOURAV\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\SOURAV\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\SOURAV\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SOURAV\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\SOURAV\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\SOURAV\AppData\Local\Temp\surefire17372332749680341308\surefirebooter-20260517114440298_3.jar C:\Users\SOURAV\AppData\Local\Temp\surefire17372332749680341308 2026-05-17T11-44-39_475-jvmRun1 surefire-20260517114440298_1tmp surefire_0-20260517114440298_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\SOURAV\AppData\Local\Temp\surefire8680529385858215685\surefirebooter-20260520010819373_3.jar C:\Users\SOURAV\AppData\Local\Temp\surefire8680529385858215685 2026-05-20T01-08-18_802-jvmRun1 surefire-20260520010819373_1tmp surefire_0-20260520010819373_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\test-classes;C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\classes;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\SOURAV\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SOURAV\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SOURAV\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SOURAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\SOURAV\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SOURAV\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SOURAV\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SOURAV\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\SOURAV\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\SOURAV\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\SOURAV\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\SOURAV\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\SOURAV\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\SOURAV\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\SOURAV\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\test-classes;C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target\classes;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\SOURAV\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SOURAV\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SOURAV\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SOURAV\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SOURAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\SOURAV\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\SOURAV\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\SOURAV\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\SOURAV\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SOURAV\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SOURAV\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\SOURAV\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\SOURAV\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\SOURAV\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\SOURAV\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\SOURAV\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\SOURAV\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\SOURAV\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\SOURAV\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\SOURAV\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\SOURAV\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\SOURAV\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\SOURAV\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\SOURAV\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SOURAV\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\SOURAV\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;"/>
     <property name="allure.results.directory" value="C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\SOURAV"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SOURAV\AppData\Local\Temp\surefire17372332749680341308\surefirebooter-20260517114440298_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SOURAV\AppData\Local\Temp\surefire8680529385858215685\surefirebooter-20260520010819373_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.26+7-LTS-187"/>
@@ -62,66 +62,548 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="verifyLandingPageElements" classname="tests.LandingPageTest" time="4.406">
-    <system-out><![CDATA[🚀 STARTED: verifyLandingPageElements
+  <testcase name="verifyLandingPageElements" classname="tests.LandingPageTest" time="1.427">
+    <system-out><![CDATA[01:08:22.132 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\SOURAV\OneDrive\Desktop\kristalball-fixed\src\test\resources\testng.xml"
+01:08:22.581 [main] INFO org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+01:08:25.257 [main] INFO base.BaseTest - Initializing WebDriver...
+01:08:25.263 [main] INFO config.ConfigurationManager - Successfully loaded config.properties
+01:08:25.263 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:08:25.263 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:08:29.330 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:08:29.330 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:08:29.738 [main] INFO tests.LandingPageTest - Navigating to the landing page...
+01:08:29.743 [main] INFO tests.LandingPageTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:08:29.744 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:08:30.364 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:30.364 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:30.433 [main] INFO utils.WaitUtils - Page load completed
+01:08:30.439 [main] INFO tests.LandingPageTest - Landing page loaded successfully.
+01:08:30.473 [main] INFO listeners.TestListener - ? STARTED: verifyLandingPageElements
+01:08:30.715 [main] INFO tests.LandingPageTest - Verifying landing page elements...
+01:08:30.715 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:30.715 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:31.005 [main] INFO utils.WaitUtils - Element with locator By.xpath: //*[contains(.,'kristalball')] became visible
+01:08:31.005 [main] INFO pages.LandingPage - App header visibility: true
+01:08:31.839 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:31.841 [main] INFO tests.LandingPageTest - Header is visible on the landing page.
+01:08:31.841 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:31.841 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:31.906 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became visible
+01:08:31.906 [main] INFO pages.LandingPage - Get Started button visibility: true
+01:08:31.906 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:31.906 [main] INFO tests.LandingPageTest - 'Get Started' button is visible on the landing page.
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 17, 2026 11:44:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:08:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:44:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:08:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testCompleteNavigationFlow" classname="tests.CompleteNavigationTest" time="8.689">
-    <system-out><![CDATA[✅ PASSED: verifyLandingPageElements
-🚀 STARTED: testCompleteNavigationFlow
+  <testcase name="testCompleteNavigationFlow" classname="tests.CompleteNavigationTest" time="10.74">
+    <system-out><![CDATA[01:08:31.935 [main] INFO listeners.TestListener - ? PASSED: verifyLandingPageElements
+01:08:31.935 [main] INFO listeners.TestListener - Capturing screenshot for test: verifyLandingPageElements
+01:08:33.436 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+01:08:33.444 [main] INFO base.BaseTest - Closing WebDriver...
+01:08:33.444 [main] INFO core.DriverManager - Quitting WebDriver...
+01:08:34.901 [main] INFO core.DriverManager - WebDriver quit and removed from ThreadLocal.
+01:08:34.901 [main] INFO base.BaseTest - WebDriver closed successfully.
+01:08:34.911 [main] INFO base.BaseTest - Initializing WebDriver...
+01:08:34.911 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:08:34.912 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:08:37.010 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:08:37.011 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:08:37.015 [main] INFO tests.CompleteNavigationTest - Navigating to the landing page...
+01:08:37.021 [main] INFO tests.CompleteNavigationTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:08:37.022 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:08:37.770 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:37.771 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:37.823 [main] INFO utils.WaitUtils - Page load completed
+01:08:37.823 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:37.823 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:37.922 [main] INFO utils.WaitUtils - Element with locator By.xpath: //*[contains(.,'kristalball')] became visible
+01:08:37.923 [main] INFO pages.LandingPage - App header visibility: true
+01:08:37.923 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:37.924 [main] INFO tests.CompleteNavigationTest - App header is visible on the landing page.
+01:08:37.927 [main] INFO listeners.TestListener - ? STARTED: testCompleteNavigationFlow
+01:08:37.934 [main] INFO tests.CompleteNavigationTest - Testing complete navigation flow...
+01:08:37.934 [main] INFO tests.CompleteNavigationTest - Clicking 'Get Started' button...
+01:08:37.934 [main] INFO pages.LandingPage - Clicking Get Started button...
+01:08:37.934 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:37.934 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:38.106 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became clickable
+01:08:38.408 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:38.408 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:38.944 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became visible
+01:08:38.945 [main] INFO pages.LandingPage - Gin element visibility: true
+01:08:38.947 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:38.947 [main] INFO tests.CompleteNavigationTest - Gin element is visible. Clicking Gin element...
+01:08:38.947 [main] INFO pages.LandingPage - Clicking Gin element...
+01:08:38.947 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:38.947 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:38.992 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became clickable
+01:08:39.083 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:39.083 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:40.770 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became visible
+01:08:40.771 [main] INFO pages.AuthPage - Continue button visibility: true
+01:08:40.771 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:40.772 [main] INFO tests.CompleteNavigationTest - Continue button is visible. Clicking Continue button...
+01:08:40.772 [main] INFO pages.AuthPage - Clicking Continue button...
+01:08:40.772 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:40.773 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:40.839 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became clickable
+01:08:40.941 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:40.942 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:40.982 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became visible
+01:08:40.983 [main] INFO pages.AuthPage - Age verification button visibility: true
+01:08:40.983 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:40.983 [main] INFO tests.CompleteNavigationTest - Age verification button is visible. Clicking Age Verification button...
+01:08:40.983 [main] INFO pages.AuthPage - Clicking Age Verification button...
+01:08:40.983 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:40.983 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:41.053 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:08:41.164 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:41.164 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:41.235 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//a[contains(@href,'/auth/product')])[1] became visible
+01:08:41.235 [main] INFO pages.ProductPage - First product visibility: true
+01:08:41.236 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:41.236 [main] INFO tests.CompleteNavigationTest - First product is visible. Clicking first product...
+01:08:41.236 [main] INFO pages.ProductPage - Clicking first product...
+01:08:41.236 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:41.236 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:41.293 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//a[contains(@href,'/auth/product')])[1] became clickable
+01:08:41.403 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:41.403 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:45.090 [main] INFO utils.WaitUtils - Element with locator By.xpath: //p[contains(text(),'Share Feedback')] became visible
+01:08:45.091 [main] INFO pages.ProductPage - Share Feedback button visibility: true
+01:08:45.091 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:45.091 [main] INFO tests.CompleteNavigationTest - Share Feedback button is visible. Clicking Share Feedback button...
+01:08:45.091 [main] INFO pages.ProductPage - Clicking Share Feedback button...
+01:08:45.091 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:45.091 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:45.127 [main] INFO utils.WaitUtils - Element with locator By.xpath: //p[contains(text(),'Share Feedback')] became clickable
+01:08:45.221 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:45.221 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:45.610 [main] INFO utils.WaitUtils - Element with locator By.xpath: //h6[contains(text(),'Feedback')] became visible
+01:08:45.611 [main] INFO pages.FeedbackPage - Feedback page visibility: true
+01:08:45.611 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:45.611 [main] INFO tests.CompleteNavigationTest - Feedback form is visible.
+01:08:45.611 [main] INFO tests.CompleteNavigationTest - Submitting feedback...
+01:08:45.612 [main] INFO pages.FeedbackPage - Filling feedback form with name: Test User, email: testuser@example.com, comment: This is an automated test feedback. The product works well and meets expectations.
+01:08:45.612 [main] INFO pages.FeedbackPage - Filling name field...
+01:08:45.612 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:45.612 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:45.686 [main] INFO utils.WaitUtils - Element with locator By.xpath: //input[@placeholder='Type your name here...'] became visible
+01:08:45.804 [main] INFO pages.FeedbackPage - Filling email field...
+01:08:45.804 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:45.804 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:45.831 [main] INFO utils.WaitUtils - Element with locator By.xpath: //input[@placeholder='Type your email here...'] became visible
+01:08:45.974 [main] INFO pages.FeedbackPage - Selecting rating...
+01:08:45.974 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:45.974 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:46.016 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//div[contains(@class,'cursor-pointer')])[5] became clickable
+01:08:46.093 [main] INFO pages.FeedbackPage - Filling comment field...
+01:08:46.093 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:46.093 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:46.137 [main] INFO utils.WaitUtils - Element with locator By.xpath: //textarea[@placeholder='Type your comments here...'] became visible
+01:08:46.498 [main] INFO pages.FeedbackPage - Clicking Submit button...
+01:08:46.498 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:46.498 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:46.533 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and .//p[text()='Submit']] became clickable
+01:08:46.619 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:46.619 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:48.686 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Thankyou!'] became visible
+01:08:48.686 [main] INFO pages.FeedbackPage - Thank You message visibility: true
+01:08:48.686 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:48.687 [main] INFO tests.CompleteNavigationTest - Thank You popup is visible after feedback submission.
 ]]></system-out>
-    <system-err><![CDATA[May 17, 2026 11:45:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:08:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:45:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:08:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAgeVerificationFlow" classname="tests.AgeVerificationTest" time="0.378">
-    <system-out><![CDATA[✅ PASSED: testCompleteNavigationFlow
-🚀 STARTED: verifyAgeVerificationFlow
+  <testcase name="verifyAgeVerificationFlow" classname="tests.AgeVerificationTest" time="0.26">
+    <system-out><![CDATA[01:08:48.695 [main] INFO listeners.TestListener - ? PASSED: testCompleteNavigationFlow
+01:08:48.696 [main] INFO listeners.TestListener - Capturing screenshot for test: testCompleteNavigationFlow
+01:08:49.079 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+01:08:49.082 [main] INFO base.BaseTest - Closing WebDriver...
+01:08:49.082 [main] INFO core.DriverManager - Quitting WebDriver...
+01:08:52.009 [main] INFO core.DriverManager - WebDriver quit and removed from ThreadLocal.
+01:08:52.009 [main] INFO base.BaseTest - WebDriver closed successfully.
+01:08:52.014 [main] INFO base.BaseTest - Initializing WebDriver...
+01:08:52.014 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:08:52.014 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:08:54.590 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:08:54.590 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:08:54.593 [main] INFO tests.AgeVerificationTest - Navigating to the authentication page...
+01:08:54.593 [main] INFO tests.AgeVerificationTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:08:54.593 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:08:55.110 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:55.110 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:55.211 [main] INFO utils.WaitUtils - Page load completed
+01:08:55.211 [main] INFO tests.AgeVerificationTest - Clicking 'Get Started' button...
+01:08:55.211 [main] INFO pages.LandingPage - Clicking Get Started button...
+01:08:55.212 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:55.212 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:55.346 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became clickable
+01:08:55.531 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:55.531 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:56.073 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became visible
+01:08:56.073 [main] INFO pages.LandingPage - Gin element visibility: true
+01:08:56.073 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:56.074 [main] INFO tests.AgeVerificationTest - Gin element is visible. Clicking Gin element...
+01:08:56.074 [main] INFO pages.LandingPage - Clicking Gin element...
+01:08:56.074 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:56.074 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:56.133 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became clickable
+01:08:56.261 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:56.261 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:57.270 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became visible
+01:08:57.271 [main] INFO pages.AuthPage - Continue button visibility: true
+01:08:57.271 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:57.272 [main] INFO tests.AgeVerificationTest - Continue button is visible. Clicking Continue button...
+01:08:57.272 [main] INFO pages.AuthPage - Clicking Continue button...
+01:08:57.272 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:57.272 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:57.339 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became clickable
+01:08:57.428 [main] INFO listeners.TestListener - ? STARTED: verifyAgeVerificationFlow
+01:08:57.433 [main] INFO tests.AgeVerificationTest - Verifying age verification flow...
+01:08:57.433 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:57.434 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:57.471 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became visible
+01:08:57.472 [main] INFO pages.AuthPage - Age verification button visibility: true
+01:08:57.472 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:57.472 [main] INFO tests.AgeVerificationTest - Age verification button is visible. Clicking Age Verification button...
+01:08:57.472 [main] INFO pages.AuthPage - Clicking Age Verification button...
+01:08:57.472 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:57.472 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:57.522 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:08:57.621 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:08:57.622 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:08:57.678 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//a[contains(@href,'/auth/product')])[1] became visible
+01:08:57.678 [main] INFO pages.ProductPage - First product visibility: true
+01:08:57.678 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:08:57.679 [main] INFO tests.AgeVerificationTest - First product is visible on the product page.
 ]]></system-out>
-    <system-err><![CDATA[May 17, 2026 11:45:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:08:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:45:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:08:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyEmptyFormValidation" classname="tests.FeedbackFormValidationTest" time="0.189">
-    <system-out><![CDATA[✅ PASSED: verifyAgeVerificationFlow
-🚀 STARTED: verifyEmptyFormValidation
+  <testcase name="verifyEmptyFormValidation" classname="tests.FeedbackFormValidationTest" time="0.164">
+    <system-out><![CDATA[01:08:57.683 [main] INFO listeners.TestListener - ? PASSED: verifyAgeVerificationFlow
+01:08:57.684 [main] INFO listeners.TestListener - Capturing screenshot for test: verifyAgeVerificationFlow
+01:08:58.487 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+01:08:58.492 [main] INFO base.BaseTest - Closing WebDriver...
+01:08:58.492 [main] INFO core.DriverManager - Quitting WebDriver...
+01:08:58.803 [main] INFO core.DriverManager - WebDriver quit and removed from ThreadLocal.
+01:08:58.803 [main] INFO base.BaseTest - WebDriver closed successfully.
+01:08:58.808 [main] INFO base.BaseTest - Initializing WebDriver...
+01:08:58.809 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:08:58.809 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:09:01.585 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:09:01.586 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:09:01.590 [main] INFO tests.FeedbackFormValidationTest - Navigating to the feedback form...
+01:09:01.593 [main] INFO tests.FeedbackFormValidationTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:09:01.595 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:09:02.136 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:02.136 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:02.152 [main] INFO utils.WaitUtils - Page load completed
+01:09:02.152 [main] INFO tests.FeedbackFormValidationTest - Clicking 'Get Started' button...
+01:09:02.152 [main] INFO pages.LandingPage - Clicking Get Started button...
+01:09:02.153 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:02.153 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:02.255 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became clickable
+01:09:02.463 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:02.464 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:03.118 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became visible
+01:09:03.118 [main] INFO pages.LandingPage - Gin element visibility: true
+01:09:03.118 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:03.118 [main] INFO tests.FeedbackFormValidationTest - Gin element is visible. Clicking Gin element...
+01:09:03.119 [main] INFO pages.LandingPage - Clicking Gin element...
+01:09:03.119 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:03.119 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:03.186 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became clickable
+01:09:03.413 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:03.413 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:04.251 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became visible
+01:09:04.251 [main] INFO pages.AuthPage - Continue button visibility: true
+01:09:04.254 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:04.257 [main] INFO tests.FeedbackFormValidationTest - Continue button is visible. Clicking Continue button...
+01:09:04.257 [main] INFO pages.AuthPage - Clicking Continue button...
+01:09:04.257 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:04.257 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:04.328 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Continue without an account'] became clickable
+01:09:04.483 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:04.483 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:04.588 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became visible
+01:09:04.588 [main] INFO pages.AuthPage - Age verification button visibility: true
+01:09:04.588 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:04.589 [main] INFO tests.FeedbackFormValidationTest - Age verification button is visible. Clicking Age Verification button...
+01:09:04.589 [main] INFO pages.AuthPage - Clicking Age Verification button...
+01:09:04.589 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:04.589 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:04.734 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:09:05.003 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:05.003 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:05.244 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//a[contains(@href,'/auth/product')])[1] became visible
+01:09:05.244 [main] INFO pages.ProductPage - First product visibility: true
+01:09:05.244 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:05.245 [main] INFO tests.FeedbackFormValidationTest - First product is visible. Clicking first product...
+01:09:05.245 [main] INFO pages.ProductPage - Clicking first product...
+01:09:05.245 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:05.245 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:05.407 [main] INFO utils.WaitUtils - Element with locator By.xpath: (//a[contains(@href,'/auth/product')])[1] became clickable
+01:09:05.644 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:05.644 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:08.329 [main] INFO utils.WaitUtils - Element with locator By.xpath: //p[contains(text(),'Share Feedback')] became visible
+01:09:08.329 [main] INFO pages.ProductPage - Share Feedback button visibility: true
+01:09:08.329 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:08.330 [main] INFO tests.FeedbackFormValidationTest - Share Feedback button is visible. Clicking Share Feedback button...
+01:09:08.330 [main] INFO pages.ProductPage - Clicking Share Feedback button...
+01:09:08.330 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:08.331 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:08.391 [main] INFO utils.WaitUtils - Element with locator By.xpath: //p[contains(text(),'Share Feedback')] became clickable
+01:09:08.563 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:08.563 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:09.005 [main] INFO utils.WaitUtils - Element with locator By.xpath: //h6[contains(text(),'Feedback')] became visible
+01:09:09.006 [main] INFO pages.FeedbackPage - Feedback page visibility: true
+01:09:09.006 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:09.006 [main] INFO tests.FeedbackFormValidationTest - Feedback form is visible.
+01:09:09.024 [main] INFO listeners.TestListener - ? STARTED: verifyEmptyFormValidation
+01:09:09.032 [main] INFO tests.FeedbackFormValidationTest - Testing empty form submission validation...
+01:09:09.032 [main] INFO tests.FeedbackFormValidationTest - Submitting feedback form without filling any fields...
+01:09:09.032 [main] INFO pages.FeedbackPage - Submitting feedback form without filling any fields...
+01:09:09.032 [main] INFO pages.FeedbackPage - Clicking Submit button...
+01:09:09.032 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:09.032 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:09.083 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and .//p[text()='Submit']] became clickable
+01:09:09.173 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:09.173 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:09.194 [main] INFO utils.WaitUtils - Element with locator By.xpath: //h6[contains(text(),'Feedback')] became visible
+01:09:09.194 [main] INFO pages.FeedbackPage - Feedback page visibility: true
+01:09:09.194 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:09.194 [main] INFO tests.FeedbackFormValidationTest - Feedback form remains visible after empty submission.
 ]]></system-out>
-    <system-err><![CDATA[May 17, 2026 11:45:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:09:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:45:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:09:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginWithEmailPassword" classname="tests.LoginTest" time="2.568">
-    <system-out><![CDATA[✅ PASSED: verifyEmptyFormValidation
-🚀 STARTED: verifyLoginWithEmailPassword
-Login flow executed (validation depends on backend behaviour)
+  <testcase name="verifyLoginWithEmailPassword" classname="tests.LoginTest" time="1.611">
+    <system-out><![CDATA[01:09:09.198 [main] INFO listeners.TestListener - ? PASSED: verifyEmptyFormValidation
+01:09:09.198 [main] INFO listeners.TestListener - Capturing screenshot for test: verifyEmptyFormValidation
+01:09:10.108 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+01:09:10.114 [main] INFO base.BaseTest - Closing WebDriver...
+01:09:10.115 [main] INFO core.DriverManager - Quitting WebDriver...
+01:09:10.494 [main] INFO core.DriverManager - WebDriver quit and removed from ThreadLocal.
+01:09:10.494 [main] INFO base.BaseTest - WebDriver closed successfully.
+01:09:10.499 [main] INFO base.BaseTest - Initializing WebDriver...
+01:09:10.499 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:09:10.499 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:09:12.339 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:09:12.339 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:09:12.356 [main] INFO tests.LoginTest - Navigating to the login page...
+01:09:12.378 [main] INFO tests.LoginTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:09:12.378 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:09:12.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:12.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:12.851 [main] INFO utils.WaitUtils - Page load completed
+01:09:12.851 [main] INFO tests.LoginTest - Clicking 'Get Started' button...
+01:09:12.851 [main] INFO pages.LandingPage - Clicking Get Started button...
+01:09:12.851 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:12.851 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:12.978 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became clickable
+01:09:13.135 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:13.135 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:13.632 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became visible
+01:09:13.632 [main] INFO pages.LandingPage - Gin element visibility: true
+01:09:13.632 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:13.633 [main] INFO tests.LoginTest - Gin element is visible. Clicking Gin element...
+01:09:13.633 [main] INFO pages.LandingPage - Clicking Gin element...
+01:09:13.633 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:13.633 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:13.676 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became clickable
+01:09:13.778 [main] INFO tests.LoginTest - Landed on the login page.
+01:09:13.780 [main] INFO listeners.TestListener - ? STARTED: verifyLoginWithEmailPassword
+01:09:13.784 [main] INFO tests.LoginTest - Testing login flow with email and password...
+01:09:13.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:13.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:14.569 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Email']/following-sibling::input became visible
+01:09:14.569 [main] INFO pages.LoginPage - Email field visibility: true
+01:09:14.571 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:14.571 [main] INFO tests.LoginTest - Email field is visible.
+01:09:14.571 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:14.571 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:14.630 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Password']/following-sibling::input became visible
+01:09:14.630 [main] INFO pages.LoginPage - Password field visibility: true
+01:09:14.630 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:14.630 [main] INFO tests.LoginTest - Password field is visible.
+01:09:14.630 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:14.630 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:14.661 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and @aria-describedby='button' and contains(@class,'cursor-pointer')] became visible
+01:09:14.661 [main] INFO pages.LoginPage - Login button visibility: true
+01:09:14.662 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:14.662 [main] INFO tests.LoginTest - Login button is visible.
+01:09:14.662 [main] INFO tests.LoginTest - Logging in with email: testuser@example.com, password: ********
+01:09:14.662 [main] INFO pages.LoginPage - Logging in with email: testuser@example.com, password: ********
+01:09:14.662 [main] INFO pages.LoginPage - Entering email: testuser@example.com
+01:09:14.662 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:14.662 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:14.686 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Email']/following-sibling::input became visible
+01:09:14.883 [main] INFO pages.LoginPage - Entering password...
+01:09:14.883 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:14.883 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:14.915 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Password']/following-sibling::input became visible
+01:09:15.113 [main] INFO pages.LoginPage - Clicking Login button...
+01:09:15.114 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:15.114 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:15.223 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and @aria-describedby='button' and contains(@class,'cursor-pointer')] became clickable
+01:09:15.374 [main] INFO tests.LoginTest - Login flow executed. Backend validation required for success/failure.
 ]]></system-out>
-    <system-err><![CDATA[May 17, 2026 11:45:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:09:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:45:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:09:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyRegistrationFlow" classname="tests.RegistrationTest" time="80.981">
-    <system-out><![CDATA[✅ PASSED: verifyLoginWithEmailPassword
-🚀 STARTED: verifyRegistrationFlow
+  <testcase name="verifyRegistrationFlow" classname="tests.RegistrationTest" time="81.085">
+    <system-out><![CDATA[01:09:15.388 [main] INFO listeners.TestListener - ? PASSED: verifyLoginWithEmailPassword
+01:09:15.391 [main] INFO listeners.TestListener - Capturing screenshot for test: verifyLoginWithEmailPassword
+01:09:15.836 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+01:09:15.839 [main] INFO base.BaseTest - Closing WebDriver...
+01:09:15.839 [main] INFO core.DriverManager - Quitting WebDriver...
+01:09:16.456 [main] INFO core.DriverManager - WebDriver quit and removed from ThreadLocal.
+01:09:16.457 [main] INFO base.BaseTest - WebDriver closed successfully.
+01:09:16.461 [main] INFO base.BaseTest - Initializing WebDriver...
+01:09:16.462 [main] INFO config.ConfigurationManager - Selected browser: chrome
+01:09:16.462 [main] INFO core.DriverManager - Initializing WebDriver for browser: chrome
+01:09:18.773 [main] INFO core.DriverManager - WebDriver initialized successfully for browser: chrome
+01:09:18.773 [main] INFO base.BaseTest - WebDriver initialized successfully.
+01:09:18.788 [main] INFO tests.RegistrationTest - Navigating to the registration page...
+01:09:18.790 [main] INFO tests.RegistrationTest - Navigating to base URL: https://smartpad-customer-feedback.vercel.app/
+01:09:18.790 [main] INFO pages.LandingPage - Navigating to URL: https://smartpad-customer-feedback.vercel.app/
+01:09:18.971 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:18.971 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:19.783 [main] INFO utils.WaitUtils - Page load completed
+01:09:19.784 [main] INFO tests.RegistrationTest - Clicking 'Get Started' button...
+01:09:19.784 [main] INFO pages.LandingPage - Clicking Get Started button...
+01:09:19.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:19.784 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:19.842 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and text()='Get started'] became clickable
+01:09:19.976 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:19.976 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:20.284 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became visible
+01:09:20.284 [main] INFO pages.LandingPage - Gin element visibility: true
+01:09:20.284 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:09:20.284 [main] INFO tests.RegistrationTest - Gin element is visible. Clicking Gin element...
+01:09:20.284 [main] INFO pages.LandingPage - Clicking Gin element...
+01:09:20.284 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:20.284 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:20.357 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Gin'] became clickable
+01:09:20.459 [main] INFO tests.RegistrationTest - Landed on the registration page.
+01:09:20.467 [main] INFO listeners.TestListener - ? STARTED: verifyRegistrationFlow
+01:09:20.472 [main] INFO tests.RegistrationTest - Testing registration flow...
+01:09:20.473 [main] INFO tests.RegistrationTest - Generated unique email for registration: testuser1779219560472@mail.com
+01:09:20.473 [main] INFO tests.RegistrationTest - Registering new user...
+01:09:20.473 [main] INFO pages.RegistrationPage - Registering new user with name: Test User, email: testuser1779219560472@mail.com, password: ********
+01:09:20.473 [main] INFO pages.RegistrationPage - Clicking Switch to Register button...
+01:09:21.205 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:21.205 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:21.273 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:09:22.353 [main] WARN utils.WaitUtils - Age gate not present or could not be handled: element click intercepted: Element <button class="bg-[#c93a3a] text-white px-[30px] py-[10px] hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-600">...</button> is not clickable at point (816, 452). Other element would receive the click: <input maxlength="25" class="w-[100%] mt-[8px] h-[50px] text-[14px] justify-center items-center font-main bg-gray-800 border border-gray-700 focus:outline-none focus:border-gray-600  px-4 py-2 rounded-lg shadow-md text-white scrollbar-thin scrollbar-thumb-black scrollbar-track-black" placeholder="Type your password here..." type="password">
+  (Session info: chrome=148.0.7778.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3846824f802e7ca5a020cf765a3c18, clickElement {id=f.8A889E6E901D3680F3FBAE31A05A277C.d.1B4C84C8E83045B3135F096955171A22.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\SOURAV\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54935}, goog:processID: 14992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54935/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //button[contains(text(),'Yes')]]
+Session ID: 9d3846824f802e7ca5a020cf765a3c18
+01:09:22.353 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:22.353 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:37.880 [main] WARN utils.WaitUtils - Overlay did not disappear or was not found: Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(@class,'fixed') and contains(@style,'rgba')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\SOURAV\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54935}, goog:processID: 14992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54935/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3846824f802e7ca5a020cf765a3c18
+01:09:37.880 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:37.881 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:38.070 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and contains(text(), 'have an account')] became clickable
+01:09:38.089 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[@role='button' and contains(text(), 'have an account')]]
+01:09:38.242 [main] INFO utils.ActionUtils - Successfully clicked element with locator: By.xpath: //div[@role='button' and contains(text(), 'have an account')]
+01:09:38.243 [main] INFO pages.RegistrationPage - Entering name: Test User
+01:09:38.264 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:38.264 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:38.325 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:09:38.588 [main] WARN utils.WaitUtils - Age gate not present or could not be handled: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3846824f802e7ca5a020cf765a3c18, clickElement {id=f.8A889E6E901D3680F3FBAE31A05A277C.d.1B4C84C8E83045B3135F096955171A22.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\SOURAV\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54935}, goog:processID: 14992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54935/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //button[contains(text(),'Yes')]]
+Session ID: 9d3846824f802e7ca5a020cf765a3c18
+01:09:38.588 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:38.588 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:38.643 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Name']/following-sibling::input became visible
+01:09:38.656 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[text()='Name']/following-sibling::input]
+01:09:38.855 [main] INFO utils.ActionUtils - Successfully typed text 'Test User' into element with locator: By.xpath: //div[text()='Name']/following-sibling::input
+01:09:38.855 [main] INFO pages.RegistrationPage - Entering email: testuser1779219560472@mail.com
+01:09:38.869 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:38.869 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:38.915 [main] INFO utils.WaitUtils - Element with locator By.xpath: //button[contains(text(),'Yes')] became clickable
+01:09:39.000 [main] INFO utils.WaitUtils - Clicked age gate button
+01:09:39.000 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:39.000 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:39.051 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Email']/following-sibling::input became visible
+01:09:39.063 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[text()='Email']/following-sibling::input]
+01:09:39.266 [main] INFO utils.ActionUtils - Successfully typed text 'testuser1779219560472@mail.com' into element with locator: By.xpath: //div[text()='Email']/following-sibling::input
+01:09:39.266 [main] INFO pages.RegistrationPage - Entering password...
+01:09:49.296 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:49.296 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:49.365 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Password']/following-sibling::input became visible
+01:09:49.395 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[text()='Password']/following-sibling::input]
+01:09:49.586 [main] INFO utils.ActionUtils - Successfully typed text 'Password123' into element with locator: By.xpath: //div[text()='Password']/following-sibling::input
+01:09:49.586 [main] INFO pages.RegistrationPage - Entering confirm password...
+01:09:59.623 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:09:59.623 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:09:59.686 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[text()='Confirm Password']/following-sibling::input became visible
+01:09:59.699 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[text()='Confirm Password']/following-sibling::input]
+01:09:59.889 [main] INFO utils.ActionUtils - Successfully typed text 'Password123' into element with locator: By.xpath: //div[text()='Confirm Password']/following-sibling::input
+01:09:59.889 [main] INFO pages.RegistrationPage - Accepting terms and conditions...
+01:10:09.927 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:10:09.927 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:10:19.975 [main] INFO utils.WaitUtils - Overlay disappeared
+01:10:19.976 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:10:19.976 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:10:20.042 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[contains(@class, 'flex-row')]//input[@type='checkbox'] became clickable
+01:10:20.052 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[contains(@class, 'flex-row')]//input[@type='checkbox']]
+01:10:20.149 [main] INFO utils.ActionUtils - Successfully clicked element with locator: By.xpath: //div[contains(@class, 'flex-row')]//input[@type='checkbox']
+01:10:20.150 [main] INFO pages.RegistrationPage - Clicking Sign Up button...
+01:10:30.209 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:10:30.209 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:10:40.280 [main] INFO utils.WaitUtils - Overlay disappeared
+01:10:40.280 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:10:40.280 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:10:40.327 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[@role='button' and @aria-describedby='button' and contains(@class,'cursor-pointer')] became clickable
+01:10:40.339 [main] INFO utils.ActionUtils - Scrolled to element: [[ChromeDriver: chrome on windows (9d3846824f802e7ca5a020cf765a3c18)] -> xpath: //div[@role='button' and @aria-describedby='button' and contains(@class,'cursor-pointer')]]
+01:10:40.473 [main] INFO utils.ActionUtils - Successfully clicked element with locator: By.xpath: //div[@role='button' and @aria-describedby='button' and contains(@class,'cursor-pointer')]
+01:10:40.473 [main] WARN config.ConfigurationManager - Property 'timeout' not found or is empty in system properties or config.properties
+01:10:40.473 [main] WARN config.ConfigurationManager - Property 'timeout' not found. Using default: 15
+01:10:41.569 [main] INFO utils.WaitUtils - Element with locator By.xpath: //div[contains(@class, 'flex-col')]//div[text()='Verify your email'] became visible
+01:10:41.569 [main] INFO pages.RegistrationPage - OTP verification text visibility: true
+01:10:41.570 [main] INFO utils.AssertionUtils - Assertion passed: Condition is true
+01:10:41.570 [main] INFO tests.RegistrationTest - User successfully navigated to OTP verification screen.
 ]]></system-out>
-    <system-err><![CDATA[May 17, 2026 11:45:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2026 1:09:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 17, 2026 11:45:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 20, 2026 1:09:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

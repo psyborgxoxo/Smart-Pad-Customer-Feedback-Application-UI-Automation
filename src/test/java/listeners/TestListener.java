@@ -1,34 +1,3 @@
-// package listeners;
-
-// import core.DriverManager;
-// import io.qameta.allure.Attachment;
-// import org.openqa.selenium.OutputType;
-// import org.openqa.selenium.TakesScreenshot;
-// import org.openqa.selenium.WebDriver;
-// import org.testng.ITestListener;
-// import org.testng.ITestResult;
-
-// public class TestListener implements ITestListener {
-
-//     @Override
-//     public void onTestFailure(ITestResult result) {
-//         WebDriver driver = DriverManager.getDriver();
-//         if (driver != null) {
-//             saveScreenshot(driver);
-//         }
-//     }
-
-//     @Attachment(value = "Page Screenshot on Failure", type = "image/png")
-//     public byte[] saveScreenshot(WebDriver driver) {
-//         try {
-//             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//         } catch (Exception e) {
-//             System.err.println("Could not take screenshot: " + e.getMessage());
-//             return new byte[0];
-//         }
-//     }
-// }
-
 package listeners;
 
 import core.DriverManager;
@@ -36,6 +5,8 @@ import io.qameta.allure.Attachment;
 import org.openqa.selenium.*;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -43,20 +14,20 @@ import java.util.Date;
 
 public class TestListener implements ITestListener {
 
-    // =========================
-    // TEST START
-    // =========================
-    @Override
-    public void onTestStart(ITestResult result) {
-        System.out.println("🚀 STARTED: " + result.getName());
-    }
+    private static final Logger logger = LoggerFactory.getLogger(TestListener.class);
 
     // =========================
-    // TEST SUCCESS
+    // TEST EVENTS
     // =========================
+
+    @Override
+    public void onTestStart(ITestResult result) {
+        logger.info("🚀 STARTED: {}", result.getName());
+    }
+
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("✅ PASSED: " + result.getName());
+        logger.info("✅ PASSED: {}", result.getName());
 
         WebDriver driver = DriverManager.getDriver();
         if (driver != null) {
@@ -64,13 +35,15 @@ public class TestListener implements ITestListener {
         }
     }
 
-    // =========================
-    // TEST FAILURE
-    // =========================
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("❌ FAILED: " + result.getName());
-        System.out.println("Reason: " + result.getThrowable());
+        logger.error("❌ FAILED: {}", result.getName());
+        logger.error("Reason: {}", result.getThrowable());
+
+        // Log stack trace for debugging
+        if (result.getThrowable() != null) {
+            logger.error("Stack Trace:", result.getThrowable());
+        }
 
         WebDriver driver = DriverManager.getDriver();
 
@@ -81,12 +54,9 @@ public class TestListener implements ITestListener {
         }
     }
 
-    // =========================
-    // TEST SKIPPED
-    // =========================
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("⚠️ SKIPPED: " + result.getName());
+        logger.warn("⚠️ SKIPPED: {}", result.getName());
     }
 
     // =========================
@@ -96,9 +66,10 @@ public class TestListener implements ITestListener {
     @Attachment(value = "{0} - Screenshot", type = "image/png")
     public byte[] attachScreenshot(String testName, WebDriver driver) {
         try {
+            logger.info("Capturing screenshot for test: {}", testName);
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         } catch (Exception e) {
-            System.err.println("Screenshot failed: " + e.getMessage());
+            logger.error("Failed to capture screenshot for test {}: {}", testName, e.getMessage());
             return new byte[0];
         }
     }
@@ -106,8 +77,10 @@ public class TestListener implements ITestListener {
     @Attachment(value = "Page Source", type = "text/html")
     public String attachPageSource(WebDriver driver) {
         try {
+            logger.info("Capturing page source...");
             return driver.getPageSource();
         } catch (Exception e) {
+            logger.error("Failed to capture page source: {}", e.getMessage());
             return "Unable to capture page source: " + e.getMessage();
         }
     }
@@ -117,6 +90,7 @@ public class TestListener implements ITestListener {
         StringBuilder logs = new StringBuilder();
 
         try {
+            logger.info("Fetching browser console logs...");
             LogEntries logEntries = driver.manage().logs().get("browser");
 
             for (LogEntry entry : logEntries) {
@@ -130,6 +104,7 @@ public class TestListener implements ITestListener {
 
         } catch (Exception e) {
             logs.append("Unable to fetch browser logs: ").append(e.getMessage());
+            logger.error("Error fetching browser logs: {}", e.getMessage());
         }
 
         return logs.toString();

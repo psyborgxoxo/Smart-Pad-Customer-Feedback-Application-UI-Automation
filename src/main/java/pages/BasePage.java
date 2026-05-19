@@ -2,26 +2,42 @@ package pages;
 
 import core.DriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import utils.WaitUtils;
 
 public abstract class BasePage {
 
-    private static final int DEFAULT_WAIT_SECONDS = 15;
+    private static final Logger logger = LoggerFactory.getLogger(BasePage.class);
 
+    /**
+     * Retrieves the WebDriver instance.
+     *
+     * @return WebDriver instance
+     */
     protected WebDriver driver() {
         return DriverManager.getDriver();
     }
 
-    protected WebDriverWait waitForElement() {
-        return new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(DEFAULT_WAIT_SECONDS));
-    }
-
+    /**
+     * Retrieves the title of the current page.
+     *
+     * @return Page title
+     */
     public String getPageTitle() {
-        return driver().getTitle();
+        String title = driver().getTitle();
+        logger.info("Current page title: {}", title);
+        return title;
     }
 
+    /**
+     * Retrieves the current URL of the browser.
+     *
+     * @return Current URL
+     */
     public String getCurrentUrl() {
-        return driver().getCurrentUrl();
+        String url = driver().getCurrentUrl();
+        logger.info("Current page URL: {}", url);
+        return url;
     }
 }

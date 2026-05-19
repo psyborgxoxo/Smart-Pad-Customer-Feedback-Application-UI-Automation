@@ -1,44 +1,100 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import utils.WaitUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LandingPage extends BasePage {
 
-    private final By appHeader     = By.xpath("//*[contains(.,'kristalball')]");
-    private final By getStartedBtn = By.xpath("//div[@role='button' and text()='Get started']");
-    private final By ginElement    = By.xpath("//div[text()='Gin']");
+    private static final Logger logger = LoggerFactory.getLogger(LandingPage.class);
 
+    // Locators
+    private static final By APP_HEADER = By.xpath("//*[contains(.,'kristalball')]");
+    private static final By GET_STARTED_BUTTON = By.xpath("//div[@role='button' and text()='Get started']");
+    private static final By GIN_ELEMENT = By.xpath("//div[text()='Gin']");
+
+    /**
+     * Navigates to the specified URL.
+     *
+     * @param url The URL to navigate to
+     */
     public void navigateTo(String url) {
+        logger.info("Navigating to URL: {}", url);
         driver().get(url);
     }
 
+    /**
+     * Checks if the app header is visible.
+     *
+     * @return True if the app header is visible, false otherwise
+     */
     public boolean isAppHeaderVisible() {
         try {
-            waitForElement().until(ExpectedConditions.visibilityOfElementLocated(appHeader));
-            return true;
-        } catch (Exception e) { return false; }
+            boolean isVisible = WaitUtils.waitForElementVisible(APP_HEADER) != null;
+            logger.info("App header visibility: {}", isVisible);
+            return isVisible;
+        } catch (Exception e) {
+            logger.warn("Error checking visibility of App header: {}", e.getMessage());
+            return false;
+        }
     }
 
+    /**
+     * Checks if the "Get Started" button is displayed.
+     *
+     * @return True if the button is displayed, false otherwise
+     */
     public boolean isGetStartedButtonDisplayed() {
         try {
-            waitForElement().until(ExpectedConditions.visibilityOfElementLocated(getStartedBtn));
-            return true;
-        } catch (Exception e) { return false; }
+            boolean isDisplayed = WaitUtils.waitForElementVisible(GET_STARTED_BUTTON) != null;
+            logger.info("Get Started button visibility: {}", isDisplayed);
+            return isDisplayed;
+        } catch (Exception e) {
+            logger.warn("Error checking visibility of Get Started button: {}", e.getMessage());
+            return false;
+        }
     }
 
+    /**
+     * Clicks the "Get Started" button.
+     */
     public void clickGetStartedButton() {
-        waitForElement().until(ExpectedConditions.elementToBeClickable(getStartedBtn)).click();
+        try {
+            logger.info("Clicking Get Started button...");
+            WaitUtils.waitForElementClickable(GET_STARTED_BUTTON).click();
+        } catch (Exception e) {
+            logger.error("Error clicking Get Started button: {}", e.getMessage(), e);
+            throw e;
+        }
     }
 
+    /**
+     * Checks if the "Gin" element is visible.
+     *
+     * @return True if the element is visible, false otherwise
+     */
     public boolean isGinElementVisible() {
         try {
-            waitForElement().until(ExpectedConditions.visibilityOfElementLocated(ginElement));
-            return true;
-        } catch (Exception e) { return false; }
+            boolean isVisible = WaitUtils.waitForElementVisible(GIN_ELEMENT) != null;
+            logger.info("Gin element visibility: {}", isVisible);
+            return isVisible;
+        } catch (Exception e) {
+            logger.warn("Error checking visibility of Gin element: {}", e.getMessage());
+            return false;
+        }
     }
 
+    /**
+     * Clicks the "Gin" element.
+     */
     public void clickGinElement() {
-        waitForElement().until(ExpectedConditions.elementToBeClickable(ginElement)).click();
+        try {
+            logger.info("Clicking Gin element...");
+            WaitUtils.waitForElementClickable(GIN_ELEMENT).click();
+        } catch (Exception e) {
+            logger.error("Error clicking Gin element: {}", e.getMessage(), e);
+            throw e;
+        }
     }
 }
